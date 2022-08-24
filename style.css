@@ -1,0 +1,66 @@
+.valuesbox {
+    display: block;
+    margin: auto;
+    margin-top: 34px;
+    width: 500px;
+    height: 40.5px;
+    border-radius: 5px;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+#message{
+    display: none;
+}
+
+#thanks{
+    display: none;
+}
+.values {
+    position: relative;
+   top: 100px;
+}
+
+#error{
+    display: none;
+}
+h2 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+p {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.fun {
+    position: relative;
+    top: 75.5px;
+}
+
+.buttonjpm {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 127.4px;
+}
+
+#result{
+    margin-top: 10px;
+}
+@media (min-width: 200px) and (max-width: 550px) {
+    .valuesbox {
+        width: 300px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+}

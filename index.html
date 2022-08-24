@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <h2>Acceleration Calculator Webapp</h2>
+        <div class="fun">
+            <p>Powered By Anirudh Vijay</p>
+            <a href="https://github.com/Anirudh-perumal"><p>Git hub :- https://github.com/Anirudh-perumal </p></a>
+        </div>
+        <div class="values">
+            <p>Note Please enter the value of time in seconds </p>
+            <p>Note Please the value of final velocity and initial velocity in meter per seconds (m/s)</p>
+            <input type="number" class="valuesbox" id="value1" placeholder="final velocity (v)" required>
+            <input type="number" class="valuesbox" id="value2" placeholder="initial velocity (u)" required>
+            <input type="number" class="valuesbox" id="value3" placeholder="time taken (t)" required >
+        </div>
+        <div class="buttonjpm">
+            <button type="button" onclick="find()" class="btn btn-primary btn-lg">Large button</button>
+        </div>
+        <div id="result">
+            <p id="message">The answer is </p>
+            <p id="answer"></p>
+            <p id="thanks">Thanks for visiting...! Hope you liked using</p>
+            <p id="error">Please enter a number</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
